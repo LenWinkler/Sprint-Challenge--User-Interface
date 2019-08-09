@@ -69,6 +69,31 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+header {
+    display: flex;
+}
+
+.lambdaLogo {
+    margin: 25px 30px 0 0;
+}
+
+nav a {
+    margin:30px;
+    text-decoration: none;
+    color: black;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbo {
+    width: 100%;
+    margin: 35px 0px;
 }
 
 .top-content {
@@ -90,6 +115,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -104,7 +169,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
