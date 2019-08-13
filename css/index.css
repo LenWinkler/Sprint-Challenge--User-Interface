@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+}
+
+.lambdaLogo {
+    margin: 25px 30px 0 0;
+}
+
+nav a {
+    margin:30px;
+    text-decoration: none;
+    color: black;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbo {
+    width: 100%;
+    margin: 35px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +114,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -104,7 +168,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +206,110 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*--------------About Page CSS------------*/
+
+.jumbo-about {
+    margin-top: 35px;
+}
+
+.aboutTop {
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutP {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.about2nd {
+ display: flex;
+ justify-content: space-around; 
+ margin-bottom: 50px;
+ padding-top: 10px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+
+.howWeWork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.about2nd h2 {
+    margin-top: 20px;
+}
+
+.about2nd button {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    width:35%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+.about3rd {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 50px;
+   }
+
+.placesWeWork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.about3rd h2 {
+    margin-top: 20px;
+}
+
+.about3rd button {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 25px 0;
+    width:35%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+.aboutBottom {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 20px; 
+}
+
+.aboutBottom p {
+    margin-bottom: 45px;
+}
+
+footer nav {
+    width: 60%;
+    height: 70px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
